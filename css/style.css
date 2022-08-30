@@ -512,6 +512,11 @@ header .container ul.links li.component {
     margin-top: 40px;
     border-bottom: 1px solid  #4c4c4c;
 }
+@media (mAX-width: 767px) {
+    .call {
+    flex-direction: column;
+    }
+}
 .call .box h2 {
     color: white;
 }
