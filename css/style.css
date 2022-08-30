@@ -9,9 +9,9 @@
     --main-padding:40px;
     --section-color:#343a40;
 }
-/* html {
+ html {
     scroll-behavior: smooth;
-} */
+} 
 /* Media Qurires Dimensions */
 /* Small */
 @media (min-width: 768px) {
