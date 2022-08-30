@@ -165,7 +165,7 @@ header .container ul.links li a::before {
     left: -150%;
     transition: 0.6s;
 }
-header .container ul.links li a:hover:last-of-type {
+header .container ul.links li a:hover:not(:last-of-type) {
     color: var(--main-color);
     transition: 0.6s;
 }
