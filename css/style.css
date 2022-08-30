@@ -89,6 +89,7 @@ header .container {
     width: 100%;
     background-color: #343a40;
     height: 110px;
+    z-index:4;
 }
 @media (max-width: 767px) {
     header .container {
