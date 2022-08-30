@@ -439,7 +439,7 @@ header .container ul.links li.component {
     border-color: transparent transparent var(--main-color) transparent;
     border-style: solid;
     left: 50%;
-    top: -20%;
+    top: -16%;
     transform: translate(-50%,-50%);
 }
 .reviews .box-reviews .box .content-reviews::after {
@@ -449,19 +449,19 @@ header .container ul.links li.component {
     border-color: transparent transparent var(--section-color) transparent;
     border-style: solid;
     left: 50%;
-    top: -19%;
+    top: -14%;
     transform: translate(-50%,-50%);
 }
-@media(max-width:767px) {
+/* @media(max-width:767px) {
     .reviews .box-reviews .box .content-reviews::after{
     top: -19%;
     }
     .reviews .box-reviews .box .content-reviews::before {
     top: -22px;
     }
-}
+} */
 .reviews .box-reviews .box .content-reviews p {
-    max-width: 450px;
+    width: 300px;
     margin: 0 auto;
     line-height: 1.6;
 }
